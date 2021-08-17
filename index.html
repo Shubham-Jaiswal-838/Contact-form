@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact form</title>
+</head>
+<body>
+    <h1>Contact form</h1>
+    <form action="mail.php"  method="POST"  class="form">
+        <p class="name">
+            <input type="text" name="name" class="name" placeholder="name">
+            <label for="name">Name</label>
+        </p>
+
+        <p class="email">
+            <input type="email" name="email" class="email" placeholder="mail@example.com">
+            <label for="name">Email</label>
+        </p>
+
+        <p class="web">
+            <input type="text" name="web" class="web" placeholder="www.example.com">
+            <label for="web">Website</label>
+        </p>
+
+        <p class="text">
+            <textarea name="textarea" id="" cols="30" rows="10" name="textarea" placeholder="Enter something to us!"></textarea>
+        </p>
+
+        <p class="submit">
+            <input type="submit" value="Submit" />
+        </p>
+
+    </form>
+  
+</body>
+</html>
